@@ -1,0 +1,638 @@
+@media (min-width: 1000px) {
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    width:1200px;
+    }
+    .task{
+     height: 900px;
+     background-color: whitesmoke;
+     padding: 0;
+     }
+     .task1{
+        height: 50px;
+        background-color: white; 
+        margin: 0;  
+        padding: 5px;
+        box-shadow: 0px 3px 30px #7B7B7B29;
+        opacity: 1;
+     }
+     span{
+        top: 10px;
+        left: 100px;
+        position: relative;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 50px;  
+     }
+     .task4{
+        top:50px;
+        left:50%;
+        right:50%;
+        position:absolute;
+        font-size: 22px;
+        padding : 15px;    
+     } 
+     a{
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+     .flex-container {
+        width: 900px;
+        display:flex ;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+        top:150px;
+        left:100px;
+        right: 150px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .flex1 {
+        width: 240px;
+        height: 240px;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        color: #00a5ec;
+        padding: 20px 0 0 0;
+        margin: 10px;
+        flex: 0 0 34%;
+      }
+      .flex1:hover {
+        box-shadow: 2px 2px 20px lightgray;
+      }
+      a {
+        color: #00a5ec;
+      }
+      b {
+        padding-left: 20px;
+        font-size: 16px;
+      }
+      .square {
+        color: lightgray;
+        text-decoration: line-through;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .test {
+        color: black;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .flex2 {
+        width: 240px;
+        height: 240px;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        color: #00a5ec;
+        padding: 20px 0 0 0;
+        margin: 10px;
+        flex: 0 0 34%;
+      }
+      .flex2:hover {
+        box-shadow: 2px 2px 20px lightgray;
+      }
+    
+      b {
+        padding-left: 20px;
+      }
+      .square1 {
+        color: lightgray;
+        text-decoration: line-through;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .test1 {
+        color: black;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .flex3 {
+        width: 240px;
+        height: 240px;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        color: #00a5ec;
+        padding: 20px 0 0 0;
+        margin: 10px;
+        flex: 0 0 34%;
+      }
+      .flex3:hover {
+        box-shadow: 2px 2px 20px lightgray;
+      }
+    
+      b {
+        padding-left: 20px;
+      }
+      .square2 {
+        color: lightgray;
+        text-decoration: line-through;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .test2 {
+        color: black;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .flex5 {
+        width: 240px;
+        height: 240px;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        color: #00a5ec;
+        padding: 20px 0 0 0;
+        margin: 10px;
+      }
+      .flex5:hover {
+        box-shadow: 2px 2px 20px lightgray;
+      }
+    
+      b {
+        padding-left: 20px;
+      }
+      .square5 {
+        color: lightgray;
+        text-decoration: line-through;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .test5 {
+        color: black;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+    
+      .flex6 {
+        width: 240px;
+        height: 240px;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        color: #00a5ec;
+        padding: 20px 0 0 0;
+        margin: 10px;
+        flex: 0 0 34%;
+      }
+      .flex6:hover {
+        box-shadow: 2px 2px 20px lightgray;
+      }
+      b {
+        padding-left: 20px;
+      }
+      .square6 {
+        color: lightgray;
+        text-decoration: line-through;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .test6 {
+        color: black;
+        left: 20px;
+        top: 7px;
+        position: relative;
+      }
+      .flex7 {
+        width: 240px;
+        height: 240px;
+        border-radius: 10px;
+        color: #00a5ec;
+        padding: 20px 0 0 0;
+        margin: 10px;
+        flex: 0 0 34%;
+      }
+    }
+  
+@media (min-width: 500px) {
+    /* ipad mini */
+    body {
+      margin: 0;
+      width: auto;
+      height: 2000px;
+      background-color: whitesmoke;
+    }
+    .task1 {
+      width: auto;
+      height: 50px;
+      background-color: white;
+      margin: 0;
+      padding: 5px;
+    }
+    span {
+      top: 10px;
+      left: 50px;
+      position: relative;
+      font-size: 35px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .task4 {
+        top:50px;
+        left:70%;
+        right:50%;
+        position:absolute;
+    }   
+    a {
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      top:150px;
+      left: 20px;
+      position: absolute;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .flex1 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex1:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+    a {
+      color: #00a5ec;
+    }
+    b {
+      padding-left: 20px;
+    }
+    .square {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .flex2 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex2:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+  
+    b {
+      padding-left: 20px;
+    }
+    .square1 {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test1 {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .flex3 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex3:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+  
+    b {
+      padding-left: 20px;
+    }
+    .square2 {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test2 {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }  
+    .flex5 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex5:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+  
+    b {
+      padding-left: 20px;
+    }
+    .square5 {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test5 {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+  
+    .flex6 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex6:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+    b {
+      padding-left: 20px;
+    }
+    .square6 {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test6 {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .flex7 {
+      width: 240px;
+      height: 240px;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+  }
+  
+  @media (min-width: 350px) {
+  /* iphone 12 pro */
+    body {
+      margin: 0;
+      width: auto;
+      height: 800px;
+      background-color: whitesmoke;
+    }
+    .task1 {
+      height: 50px;
+      background-color: white;
+      margin: 0;
+      padding: 0px;
+      border: 1px solid lightgray;
+    }
+    span {
+      font-size: 35px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+    }
+    .task4 {
+      width: auto;
+      height: 20px;
+      padding: 15px;
+      text-align: center;
+    }
+    a {
+      font-size: 20px;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px;
+    }
+    .flex1 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex1:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+    a {
+      color: #00a5ec;
+    }
+    b {
+      padding-left: 20px;
+    }
+    .square {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .flex2 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex2:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+  
+    b {
+      padding-left: 20px;
+    }
+    .square1 {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test1 {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .flex3 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex3:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+  
+    b {
+      padding-left: 20px;
+    }
+    .square2 {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test2 {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .flex5 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex5:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+  
+    b {
+      padding-left: 20px;
+    }
+    .square5 {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test5 {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+  
+    .flex6 {
+      width: 240px;
+      height: 240px;
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+    .flex6:hover {
+      box-shadow: 2px 2px 20px lightgray;
+    }
+    b {
+      padding-left: 20px;
+    }
+    .square6 {
+      color: lightgray;
+      text-decoration: line-through;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .test6 {
+      color: black;
+      left: 20px;
+      top: 7px;
+      position: relative;
+    }
+    .flex7 {
+      width: 240px;
+      height: 240px;
+      border-radius: 10px;
+      color: #00a5ec;
+      padding: 20px 0 0 0;
+      margin: 10px;
+      flex: 0 0 240px;
+    }
+  }
+  

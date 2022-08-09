@@ -1,0 +1,626 @@
+@media  (min-width: 500px) {
+  /* ipad mini */
+  body {
+    margin: 0;
+    background-color: whitesmoke;
+  }
+  .task1 {
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+  }
+  span {
+    top: 10px;
+    left: 50px;
+    position: relative;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .task4 {
+    width: 200px;
+    background-color:whitesmoke;
+    height: 50px;
+    left:80%;
+    position: absolute;
+  }
+  a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .flex-container {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    top: 130px;
+    left: 20px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .flex1 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex1:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+  a {
+    color: #00a5ec;
+  }
+  b {
+    padding-left: 20px;
+  }
+  .square {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .flex2 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex2:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+
+  b {
+    padding-left: 20px;
+  }
+  .square1 {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test1 {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .flex3 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex3:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+
+  b {
+    padding-left: 20px;
+  }
+  .square2 {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test2 {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .flex5 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex5:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+
+  b {
+    padding-left: 20px;
+  }
+  .square5 {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test5 {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+
+  .flex6 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex6:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+  b {
+    padding-left: 20px;
+  }
+  .square6 {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test6 {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .flex7 {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+}
+
+@media  (min-width: 350px) {
+/* iphone 12 pro */
+  body {
+    margin: 0;
+    width: auto;
+    height: 800px;
+    background-color: whitesmoke;
+  }
+  .task1 {
+    width: 390px;
+    height: 50px;
+    background-color: white;
+    margin: 0;
+    padding: 0px;
+    border: 1px solid lightgray;
+  }
+  span {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+  }
+  .task4 {
+    width: auto;
+    height: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    top: 130px;
+    left: 20px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .flex1 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex1:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+  a {
+    color: #00a5ec;
+  }
+  b {
+    padding-left: 20px;
+  }
+  .square {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .flex2 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex2:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+
+  b {
+    padding-left: 20px;
+  }
+  .square1 {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test1 {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .flex3 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex3:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+
+  b {
+    padding-left: 20px;
+  }
+  .square2 {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test2 {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .flex5 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex5:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+
+  b {
+    padding-left: 20px;
+  }
+  .square5 {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test5 {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+
+  .flex6 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+  .flex6:hover {
+    box-shadow: 2px 2px 20px lightgray;
+  }
+  b {
+    padding-left: 20px;
+  }
+  .square6 {
+    color: lightgray;
+    text-decoration: line-through;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .test6 {
+    color: black;
+    left: 20px;
+    top: 7px;
+    position: relative;
+  }
+  .flex7 {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    color: #00a5ec;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    flex: 0 0 240px;
+  }
+}
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+.task1 {
+  width: auto;
+  height: 50px;
+  background-color: white;
+  margin: 0;
+  padding: 5px;
+}
+span {
+  top: 10px;
+  left: 50px;
+  position: relative;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.task4 {
+  width: auto;
+  background-color:whitesmoke;
+  height: 20px;
+  padding: 15px;
+  left:80%;
+  position: absolute;
+}
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex1 {
+  width: 900px;
+  height: 240px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: #00a5ec;
+  padding: 20px 0 0 0;
+  margin: 100px;
+  flex: 33.33%;
+}
+.flex1:hover {
+  box-shadow: 2px 2px 20px lightgray;
+}
+a {
+  color: #00a5ec;
+}
+b {
+  padding-left: 20px;
+}
+.square {
+  color: lightgray;
+  text-decoration: line-through;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.test {
+  color: black;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.flex2 {
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: #00a5ec;
+  padding: 20px 0 0 0;
+  margin: 10px;
+  flex: 33.33%;
+}
+.flex2:hover {
+  box-shadow: 2px 2px 20px lightgray;
+}
+
+b {
+  padding-left: 20px;
+}
+.square1 {
+  color: lightgray;
+  text-decoration: line-through;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.test1 {
+  color: black;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.flex3 {
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: #00a5ec;
+  padding: 20px 0 0 0;
+  margin: 10px;
+  flex: 33.33%;
+}
+.flex3:hover {
+  box-shadow: 2px 2px 20px lightgray;
+}
+
+b {
+  padding-left: 20px;
+}
+.square2 {
+  color: lightgray;
+  text-decoration: line-through;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.test2 {
+  color: black;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.flex5 {
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: #00a5ec;
+  padding: 20px 0 0 0;
+  margin: 10px;
+  flex: 33.33%;
+}
+.flex5:hover {
+  box-shadow: 2px 2px 20px lightgray;
+}
+
+b {
+  padding-left: 20px;
+}
+.square5 {
+  color: lightgray;
+  text-decoration: line-through;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.test5 {
+  color: black;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+
+.flex6 {
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: #00a5ec;
+  padding: 20px 0 0 0;
+  margin: 10px;
+  flex: 33.33%;
+}
+.flex6:hover {
+  box-shadow: 2px 2px 20px lightgray;
+}
+b {
+  padding-left: 20px;
+}
+.square6 {
+  color: lightgray;
+  text-decoration: line-through;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.test6 {
+  color: black;
+  left: 20px;
+  top: 7px;
+  position: relative;
+}
+.flex7 {
+  width: 240px;
+  height: 240px;
+  border-radius: 10px;
+  color: #00a5ec;
+  padding: 20px 0 0 0;
+  margin: 10px;
+  flex: 33.33%;
+}
+
